@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  /* background-color: #eadec8; */
+  background-image: url("https://gametable.org/res/images/pattern/wood.webp");
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
