@@ -106,11 +106,11 @@ function App() {
   <div className='player-text'>Player 1 : ➕</div>
   <div className='player-text'>Player 2 : ➖</div>
  </div>
-  <p className='current-text'>Current Player : {player === 1 ? "Player 1 ➕" : "Player 2 ➖" } </p>
+  <p className='current-text'>Current Player : {player === 1 ? "Player 2 ➖" : "Player 1 ➕" } </p>
 
 {
   winner ? ( 
-    <h1>winner is  {player === 1 ? "player 1 ➕" : "player 2 ➖"} 💐</h1>
+    <h1 className='winner-text'>winner is  {player === 1 ? "player 2 ➖" : "player 1 ➕"} </h1>
   ) : null
 }
 
